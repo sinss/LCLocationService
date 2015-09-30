@@ -15,6 +15,7 @@
 		B3DCAA9A1BBC298900BAF364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DCAA981BBC298900BAF364 /* LaunchScreen.storyboard */; };
 		B3DCAAA51BBC298900BAF364 /* LCLocationServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DCAAA41BBC298900BAF364 /* LCLocationServiceTests.m */; };
 		B3DCAAB01BBC298900BAF364 /* LCLocationServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DCAAAF1BBC298900BAF364 /* LCLocationServiceUITests.m */; };
+		B3DCAAC01BBC29EA00BAF364 /* LCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DCAABF1BBC29EA00BAF364 /* LCLocationManager.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B3DCAAAB1BBC298900BAF364 /* LCLocationServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCLocationServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DCAAAF1BBC298900BAF364 /* LCLocationServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCLocationServiceUITests.m; sourceTree = "<group>"; };
 		B3DCAAB11BBC298900BAF364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DCAABE1BBC29EA00BAF364 /* LCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLocationManager.h; sourceTree = "<group>"; };
+		B3DCAABF1BBC29EA00BAF364 /* LCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B3DCAA891BBC298900BAF364 /* LCLocationService */ = {
 			isa = PBXGroup;
 			children = (
+				B3DCAABD1BBC29EA00BAF364 /* Classes */,
 				B3DCAA8D1BBC298900BAF364 /* AppDelegate.h */,
 				B3DCAA8E1BBC298900BAF364 /* AppDelegate.m */,
 				B3DCAA901BBC298900BAF364 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				B3DCAAB11BBC298900BAF364 /* Info.plist */,
 			);
 			path = LCLocationServiceUITests;
+			sourceTree = "<group>";
+		};
+		B3DCAABD1BBC29EA00BAF364 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3DCAABE1BBC29EA00BAF364 /* LCLocationManager.h */,
+				B3DCAABF1BBC29EA00BAF364 /* LCLocationManager.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3DCAA921BBC298900BAF364 /* ViewController.m in Sources */,
+				B3DCAAC01BBC29EA00BAF364 /* LCLocationManager.m in Sources */,
 				B3DCAA8F1BBC298900BAF364 /* AppDelegate.m in Sources */,
 				B3DCAA8C1BBC298900BAF364 /* main.m in Sources */,
 			);
